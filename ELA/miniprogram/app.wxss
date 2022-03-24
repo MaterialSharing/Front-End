@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* 这里使用page来单纯的提升一下其优先级,来抗衡系统默认的css(user agent stylesheet)
+使用page作为祖先,可以将命中偏差的影响降低到较理想的程度 */
+page button {
+  background: initial;
+  border: solid;
+  border-radius: 1rem;
+}
+
+page template,
+view {
+  border: solid aqua 1px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* view {
+  margin: 1rem;
+} */
+
+button:focus {
+  outline: 0;
+}
+
+button::after {
+  border: none;
+}
+
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

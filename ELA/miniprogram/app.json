@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/Main/Main",
+    "pages/Mine/Mine",
+    "pages/index/index",
+    "pages/bindTest/bindTest",
+    "pages/Words/words",
+    "pages/ScoreImprover"
+ 
+  ],
+  "window": {
+    "backgroundColor": "#f398bb",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#79edb7",
+    "navigationBarTitleText": "英语学习助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
