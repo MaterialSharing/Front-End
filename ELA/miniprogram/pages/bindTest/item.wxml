@@ -1,4 +1,0 @@
-<!-- item.wxml -->
-<template name="item">
-  <text>{{text}}</text>
-</template>

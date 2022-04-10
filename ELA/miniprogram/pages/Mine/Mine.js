@@ -1,4 +1,4 @@
-// pages/Mine/Mine.js
+// pages/mine/mine.js
 Page({
 
   /**

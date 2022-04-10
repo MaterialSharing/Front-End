@@ -1,20 +1,45 @@
 {
   "pages": [
-    "pages/Main/Main",
-    "pages/Mine/Mine",
     "pages/index/index",
-    "pages/bindTest/bindTest",
-    "pages/Words/words",
-    "pages/ScoreImprover"
- 
+    "pages/learnWords/learnWords",
+    "pages/assistant/assistant",
+    "pages/mine/mine"
   ],
   "window": {
-    "backgroundColor": "#f398bb",
+    "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#79edb7",
+    "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "英语学习助手",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/homeSelected.png"
+      },
+      {
+        "pagePath": "pages/learnWords/learnWords",
+        "text": "背单词",
+        "iconPath": "images/carry out.png",
+        "selectedIconPath": "images/carry out selected.png"
+      },
+      {
+        "pagePath": "pages/assistant/assistant",
+        "text": "提分助手",
+        "iconPath": "images/alert.png",
+        "selectedIconPath": "images/alertSelected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/userSelected.png"
+      }
+    ],
+    "selectedColor": "#1296db"
+  },
+  "sitemapLocation": "sitemap.json"
 }

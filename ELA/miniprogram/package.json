@@ -1,0 +1,26 @@
+{
+  "name": "miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "csstype": "^2.6.20",
+    "estree-walker": "^2.0.2",
+    "magic-string": "^0.25.9",
+    "miniprogram-sm-crypto": "^0.3.7",
+    "nanoid": "^3.3.2",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.12",
+    "source-map": "^0.6.1",
+    "source-map-js": "^1.0.2",
+    "sourcemap-codec": "^1.4.8",
+    "vant": "^3.4.7",
+    "vant-weapp": "^0.5.29",
+    "vue": "^3.2.31"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

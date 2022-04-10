@@ -19,6 +19,12 @@
           "query": ""
         },
         {
+          "name": "pages/getOpenId/index",
+          "pathName": "pages/getOpenId/index",
+          "query": "",
+          "scene": null
+        },
+        {
           "name": "pages/deployService/index",
           "pathName": "pages/deployService/index",
           "query": "",
@@ -51,22 +57,7 @@
         {
           "name": "pages/updateRecordSuccess/index",
           "pathName": "pages/updateRecordSuccess/index",
-          "query": "",
           "scene": null
-        },
-        {
-          "name": "",
-          "pathName": "pages/testTranslator/BaiduTranslatpr",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "bindTest",
-          "pathName": "pages/bindTest/bindTest",
-          "query": "",
-          "scene": null,
-          "launchMode": "default"
         }
       ]
     }

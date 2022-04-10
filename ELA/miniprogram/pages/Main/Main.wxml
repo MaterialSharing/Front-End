@@ -1,9 +1,0 @@
-<!--pages/testTranslator/BaiduTranslatpr.wxml-->
-<!-- <text>pages/testTranslator/BaiduTranslatpr.wxml</text> -->
-<text class="topMargin_10vh explain radius_5px ">{{translateResult}}</text>
-<text class="radius_5px border">translateRe</text>
-<!-- <image src="https://mmbiz.qpic.cn/mmbiz_png/5cdibJIVPdsSZDQgYHKocSxiadkqNpkBhZOSteic2XE5nFibJNzSrCFZ3dTRbWPxfYbPE870W3qbIiaic6jgIBN0CEJA/640?wx_fmt=png" class="border radius_5px"></image> -->
-<!-- <image src="bingImgs" alt=""/> -->
-<image src="{{bingImgs}}"></image>
-<button bindtap="getBingImgs">click@</button>
-<text>{{bingImgs}}</text>
