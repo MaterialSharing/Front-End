@@ -1,0 +1,23 @@
+<!--pages/searchError/searchError.wxml-->
+<view class="ela-content">
+  <view>
+    <van-search v-model="value" value="challeng" shape="round"></van-search>
+  </view>
+  <view class="ela-card">
+    <view class="search">
+      <van-icon name="smile-o" size="30px"></van-icon>
+      <text>搜索没有结果！</text>
+    </view>
+  </view>
+  <view>您是不是要找：</view>
+  <view class="ela-card">
+    <text class="justify-content-text">challenge</text>
+  </view>
+  <view class="ela-big-card">
+    <text>每日一句真题长难句</text>
+    <text class="content-text">
+      Interest in historical methods has arisen less through external challenge to the validity of history as an intellectual discipline and more from internal quarrels among historians themselves.
+      人们对于历史研究方法论的兴趣提升了，与其说是因为业外对于历史学作为一门知识学科的合理性提出了挑战，还不如说是因为史学家们当中出现的学术争论所导致的。
+    </text>
+  </view>
+</view>

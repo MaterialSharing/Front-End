@@ -1,47 +1,33 @@
-//0 引入 用来发送请求的方法
-import {request} from "../../request/index.js"
+// pages/bookClassification/bookClassification.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    //轮播图数组
-    swiperList:[]
+    array: ['常规模式', '简洁模式'],
+    index: 0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    //1.发送异步请求获取轮播图数据
-    // wx-wx.request({
-    //   url: 'https://cn.bing.com/HPImageArchive.aspx?format=js&n=2&mkt=en-us',
-    //   success: (result) => {
-    //     console.log(result)
-    //     this.setData({
-    //       swiperList:result.data.images
-    //     })
-    //   }
-    // })
     
-    this.getSwiperList();
-
   },
 
-  //获取轮播图数据
-  getSwiperList(){
-    request({url:"https://cn.bing.com/HPImageArchive.aspx?format=js&n=2&mkt=en-us"})
-      .then(result=>{
-        this.setData({
-        swiperList:result.data.images
-        })
-      })
+  //picker
+  bindPickerChange: function(e){
+    // console.log(e);
+    this.setData({
+      index: e.detail.value
+    })
   },
 
-  selectBook: function(event){
+  //wordList
+  wordList: function(e){
     wx.navigateTo({
-      url: '../bookClassification/bookClassification',
+      url: '../wordList/wordList'
     })
   },
 

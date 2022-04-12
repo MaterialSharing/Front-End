@@ -1,0 +1,7 @@
+<!--components/slot/slot.wxml-->
+<view>
+  <text>我是标准的内容</text>
+  <!--下面是slot插槽（占位），用于承载组件引用时提供的子节点-->
+  <slot></slot>
+</view>
+

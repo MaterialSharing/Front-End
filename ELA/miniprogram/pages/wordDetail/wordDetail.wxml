@@ -1,0 +1,6 @@
+<!--pages/wordDetail/wordDetail.wxml-->
+<view class="ela-content">
+  <view class="ela-card">
+    <text class="justify-content-text">challenge</text>
+  </view>
+</view>

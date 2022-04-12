@@ -1,7 +1,7 @@
 <!--pages/index/index.wxml-->
 <view class="ela-content">
   <view>
-    <van-search v-model="value" placeholder="请输入搜索关键词" shape="round"></van-search>
+    <van-search vw-model="value" placeholder="请输入搜索关键词" shape="round"></van-search>
   </view>
   <!-- 轮播图开始 -->
   <view class="index-swiper">
@@ -16,8 +16,8 @@
   </view>
   <!-- 轮播图结束 -->
   <view>当前学习任务/上次学到</view>
-  <view class="ela-card">
-    <text class="justify-content-text" bindtap="selectBook">六级词汇</text>
+  <view class="ela-card" bindtap="selectBook">
+    <text class="justify-content-text">六级词汇</text>
   </view>
   <!-- 进度条开始 -->
   <view>

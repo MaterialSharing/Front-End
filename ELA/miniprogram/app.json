@@ -1,9 +1,14 @@
 {
   "pages": [
+    "pages/wordDetail/wordDetail",
+    "pages/searchError/searchError",
     "pages/index/index",
+    "pages/bookClassification/bookClassification",
     "pages/learnWords/learnWords",
     "pages/assistant/assistant",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/wordList/wordList"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

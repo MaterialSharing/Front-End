@@ -1,0 +1,29 @@
+/* pages/searchError/searchError.wxss */
+.ela-card{
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 0rpx 100rpx;
+  border-radius: 100rpx;
+}
+
+.search{
+  text-align: center;
+}
+
+.ela-big-card{
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 50rpx;
+  margin: 40rpx 100rpx;
+  border-radius: 100rpx;
+}
+
+.justify-content-text{
+  display: flex;
+  justify-content: center;
+}
+
+.content-text{
+  font-size: 10px;
+}
