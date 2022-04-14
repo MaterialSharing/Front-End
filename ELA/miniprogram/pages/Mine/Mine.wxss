@@ -1,1 +1,74 @@
 /* pages/mine/mine.wxss */
+.ela-card{
+  text-align: center;
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 30rpx 100rpx;
+  border-radius: 50rpx;
+}
+
+.name-card{
+  text-align: center;
+  font-size: 30rpx;
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 30rpx 20rpx;
+  border-radius: 30rpx;
+}
+
+.name{
+  font-size: 50rpx;
+}
+
+.justify-content-text{
+  display: flex;
+  justify-content: center;
+}
+
+.album {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  margin-top: 7rpx;
+  margin-right: 10rpx;
+  color: black;
+  font-weight: 445;
+  margin-bottom: 15rpx;
+}
+
+.text1{
+  font-size: 30rpx;
+}
+
+.user{
+  color: #1296db;
+  font-size: 40rpx;
+}
+
+.outline{
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 30rpx 100rpx;
+  border-radius: 100rpx;
+}
+
+.time-card{
+  border-color: #1296db;
+  border-style: solid;
+  border-width: 2rpx;
+  text-align: center;
+}
+
+.picker{
+  font-size: 30rpx;
+}
+
+.ddl{
+  font-size: 50rpx;
+  color: red;
+}

@@ -3,11 +3,15 @@
   border-style: solid;
   border-width: 2rpx;
   padding: 30rpx;
-  margin: 0rpx 100rpx;
+  margin: 30rpx 100rpx;
   border-radius: 100rpx;
 }
 
 .justify-content-text{
   display: flex;
   justify-content: center;
+}
+
+.content-text{
+  font-size: 10px;
 }

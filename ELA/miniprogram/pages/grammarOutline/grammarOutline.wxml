@@ -1,0 +1,7 @@
+<!--pages/grammarOutline/grammarOutline.wxml-->
+<view class="ela-content">
+  <view class="ela-card">
+    <text class="justify-content-text" bindtap="selectBook">语法纲要速查</text>
+  </view>
+  <image src="../../images/grammarOutline.jpg" mode="aspectFill" class="image"></image>
+</view>

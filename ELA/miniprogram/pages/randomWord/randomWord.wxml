@@ -1,0 +1,25 @@
+<!--pages/randomWord/randomWord.wxml-->
+<view class="content">
+  <view class="picker-content">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        <van-cell title="选择考试类别" is-link>{{array[index]}}</van-cell>
+      </view>
+    </picker>
+  </view>
+  <view class="process">50/5514</view>
+  <view class="ela-card">
+    <view class="ela-card">
+      <text class="justify-content-text">[sɜːtʃ]</text>
+    </view>
+    <text class="justify-content-text">search</text>
+    <view class="ela-card">
+      <view class="justify-content-text">n.搜索</view>
+    </view>
+  </view>
+  <view class="star">
+    <van-icon name="star-o"></van-icon>
+    <text>收藏</text>
+  </view>
+  <van-button plain color="#1296db" class="button">再来一个</van-button>
+</view>

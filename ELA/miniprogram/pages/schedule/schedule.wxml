@@ -1,0 +1,15 @@
+<!--pages/schedule/schedule.wxml-->
+<view class="ela-content">
+  <view class="title">
+    <text class="justify-content-text" bindtap="selectBook">学习规划</text>
+  </view>
+  <view class="picker-content">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        <van-cell title="考试目标" is-link>{{array[index]}}</van-cell>
+      </view>
+    </picker>
+  </view>
+  <van-cell title="每天学习的单词数：">76个</van-cell>
+  <van-cell title="所需时间：">36天</van-cell>
+</view>

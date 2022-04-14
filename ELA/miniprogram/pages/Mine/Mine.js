@@ -5,14 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    array: ['四级大纲', '六级大纲', '考研大纲' ],
+    index: 0,
+    date: '2016-09-01',
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    
+  },
 
+  //picker
+  bindPickerChange: function(e){
+    // console.log(e);
+    this.setData({
+      index: e.detail.value
+    })
+  },
+
+  //date
+  bindDateChange: function(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      date: e.detail.value
+    })
   },
 
   /**

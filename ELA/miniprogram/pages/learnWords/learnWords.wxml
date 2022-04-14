@@ -1,2 +1,49 @@
 <!--pages/learnWords/learnWords.wxml-->
-<text>pages/learnWords/learnWords.wxml</text>
+<view class="ela-content">
+  <view class="process">50/5514</view>
+  <view class="ela-card">
+    <view class="ela-card">
+      <text class="justify-content-text">[sɜːtʃ]</text>
+    </view>
+    <text class="justify-content-text">search</text>
+    <view class="ela-card">
+      <view class="justify-content-text">n.搜索</view>
+    </view>
+  </view>
+  <view class="star">
+    <van-icon name="star-o"></van-icon>
+    <text>收藏</text>
+  </view>
+  <view class="ela-card">
+    <text>难度等级：</text>
+    <van-rate v-model="value"></van-rate>
+    <text>我的观点：</text>
+    <van-rate v-model="value"></van-rate>
+  </view>
+  <view>单词批注</view>
+  <view class="justify-content-text">
+    <van-button>添加我的批注</van-button>
+  </view>
+  <view class="line"></view>
+  <view>
+    <view class="album">
+        <l-avatar class="avatar" size='80' shape="square" src="https://c-ssl.duitang.com/uploads/item/201905/17/20190517211730_kurtr.jpg" />
+        <view class="right">
+            <view class="name">小新</view>
+            <view class='content'>search的基本意思是“搜查”,指怀着发现某物的希望而认真、深入地寻找或调查，多指搜索、检查犯罪的人或违禁的、丢失的东西。强调所用的努力及其彻底性，含有对立或不满的意味，用于比喻可表示“冥思苦想”等。</view>
+        </view>
+    </view>
+    <view class="line"></view>
+  </view>
+    <view>
+      <view class="album">
+        <l-avatar class="avatar" size='80' shape="square" src="https://c-ssl.duitang.com/uploads/item/202007/04/20200704075609_ejqjf.jpg" />
+        <view class="right">
+          <view class="name">小正太</view>
+          <view class='content'>Police searched everyone present at the scene of crime.
+警察搜查了在犯罪现场的每一个人。</view>
+        </view>
+      </view>
+      <view class="line"></view>
+  </view>
+</view>

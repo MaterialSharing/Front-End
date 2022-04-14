@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    array: ['四级大纲', '六级大纲', '考研大纲' ],
+    index: 0
   },
 
   /**
@@ -20,6 +21,14 @@ Page({
    */
   onReady: function () {
 
+  },
+
+  //picker
+  bindPickerChange: function(e){
+    // console.log(e);
+    this.setData({
+      index: e.detail.value
+    })
   },
 
   /**

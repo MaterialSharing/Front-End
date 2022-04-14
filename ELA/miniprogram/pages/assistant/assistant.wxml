@@ -1,2 +1,17 @@
 <!--pages/assistant/assistant.wxml-->
-<text>pages/assistant/assistant.wxml</text>
+<view class="ela-content">
+  <view class="justify-content-text">考试大纲</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      <van-cell title="记忆模式" is-link>{{array[index]}}</van-cell>
+    </view>
+  </picker>
+  <view class="ela-card">
+    本考试包括四个部分：写作，听力理解，阅读理解，翻译。全部题目按顺序统一编号。
+    第一部分：写作
+    (Part Ⅴ：Writing)：共1题，考试时间30分钟。要求考生写出一篇100-120词的短文，试卷上可能给出题目，或规定情景，或要求看图作文，或给出段首句要求续写;或给出关键词要求写成短文。要求能够正确表达思想，意义连贯，无重大语法错误。写作的内容包括日常生活和一般常识。
+    短文写作部分的目的是测试学生运用英语书面表达思想的初步能力。
+    第二部分：听力理解
+    (Part 1：Listening Comprehension)：共30题，考试时间30分钟。这一部分包括两节：A节(Section A)听力对话,有10题，每题含一组对话，对话后有一个问句。B节(Section B)听力短文,有20题，分别安排在若干篇听力材料之后，每篇后有二至四道题，每题为一个问句。单词及词组听写。
+  </view>
+</view>

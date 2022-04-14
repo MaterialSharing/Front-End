@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-icon": "../../miniprogram_npm/vant-weapp/icon/index",
+    "l-avatar": "../../miniprogram_npm/lin-ui/avatar/index",
+    "van-cell": "../../miniprogram_npm/vant-weapp/cell/index"
+  }
 }

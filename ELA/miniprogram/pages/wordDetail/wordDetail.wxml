@@ -1,6 +1,27 @@
 <!--pages/wordDetail/wordDetail.wxml-->
 <view class="ela-content">
+  <text class="justify-content-text">search</text>
+  <view class="ela-card" bindtap="wordList">
+    <view>音标：</view>
+    <view class="content-text">UK-phonetic [sɜ:tʃ]</view>
+    <view class="content-text">US-phonetic-phonetic [sɜrtʃ] </view>
+  </view>
+  <view>explains(词义)</view>
   <view class="ela-card">
-    <text class="justify-content-text">challenge</text>
+    <view class="content-text">v.  搜寻，搜索；调查；搜查；探求;</view>
+    <view class="content-text">n.  搜索；调查；探求;</view>
+  </view>
+  <view class="ela-card">
+    <view class="content-text">网络释义：</view>
+    <view class="content-text">搜索</view>
+    <view class="content-text">搜寻</view>
+  </view>
+  <view>词性/词变化</view>
+  <view class="ela-card">
+    <view class="content-text">网络释义：</view>
+    <view class="content-text">过去分词: searched</view>
+    <view class="content-text">过去式: searched</view>
+    <view class="content-text">现在分词: searching</view>
+    <view class="content-text">第三人称单数: searches</view>
   </view>
 </view>

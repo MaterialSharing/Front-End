@@ -1,1 +1,58 @@
 /* pages/learnWords/learnWords.wxss */
+.ela-card{
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 30rpx 100rpx;
+  border-radius: 100rpx;
+}
+
+.justify-content-text{
+  display: flex;
+  justify-content: center;
+}
+
+.process{
+  text-align: center;
+}
+
+.star{
+  text-align: right;
+}
+
+.rate-card{
+  border-style: solid;
+  border-width: 2rpx;
+  margin: 30rpx 100rpx;
+  padding: 30rpx;
+  border-radius: 100rpx;
+}
+
+.button{
+  text-align: center;
+}
+
+.album {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  margin-left: 20rpx;
+}
+
+.right {
+  margin-left: 20rpx;
+}
+
+.name {
+  color: rgb(91, 108, 160);
+  font-weight: 450;
+}
+
+.line {
+  height: 1px;
+  border-top: solid Silver 1px;
+  margin-bottom: 40rpx;
+  margin-top: 30rpx;
+}

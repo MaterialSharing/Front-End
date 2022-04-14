@@ -1,0 +1,2 @@
+<!--pages/authorize/authorize.wxml-->
+<van-button class="button" plain color="#1296db">授权登录</van-button>

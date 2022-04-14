@@ -1,0 +1,14 @@
+/* pages/comment/comment.wxss */
+.justify-content-text{
+  display: flex;
+  justify-content: center;
+}
+
+.ela-card{
+  height: 400rpx;
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 60rpx;
+  margin: 30rpx 100rpx;
+  border-radius: 100rpx;
+}

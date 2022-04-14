@@ -1,0 +1,22 @@
+<!--pages/learnWordsSimple/learnWordsSimple.wxml-->
+<view class="ela-content">
+  <view class="ela-card">
+    <text class="justify-content-text">简洁模式</text>
+  </view>
+  <view class="process">50/5514</view>
+  <view class="ela-card">
+    <view class="ela-card">
+      <text class="justify-content-text">[sɜːtʃ]</text>
+    </view>
+    <text class="justify-content-text">search</text>
+    <view class="ela-card">
+      <view class="justify-content-text">n.搜索</view>
+    </view>
+    <van-button class="left-button" plain color="#1296db">练习拼写</van-button>
+    <van-button plain color="#1296db">单词详情</van-button>
+  </view>
+  <view class="star">
+    <van-icon name="star-o"></van-icon>
+    <text>收藏</text>
+  </view>
+</view>

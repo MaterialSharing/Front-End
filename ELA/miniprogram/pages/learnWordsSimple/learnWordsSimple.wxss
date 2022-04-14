@@ -1,0 +1,25 @@
+/* pages/learnWordsSimple/learnWordsSimple.wxss */
+.ela-card{
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 30rpx 100rpx;
+  border-radius: 100rpx;
+}
+
+.justify-content-text{
+  display: flex;
+  justify-content: center;
+}
+
+.process{
+  text-align: center;
+}
+
+.star{
+  text-align: right;
+}
+
+.left-button{
+  margin: 0rpx,20rpx;
+}

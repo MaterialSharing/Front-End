@@ -1,0 +1,6 @@
+<!--pages/comment/comment.wxml-->
+<view class="ela-content">
+  <view class="justify-content-text">我的批注</view>
+  <view class="ela-card">批注内容...</view>
+  <van-button class="justify-content-text">提交</van-button>
+</view>

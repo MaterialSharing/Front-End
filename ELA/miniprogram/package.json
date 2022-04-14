@@ -1,11 +1,11 @@
 {
   "name": "miniprogram",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "csstype": "^2.6.20",
     "estree-walker": "^2.0.2",
+    "lin-ui": "^0.9.8",
     "magic-string": "^0.25.9",
     "miniprogram-sm-crypto": "^0.3.7",
     "nanoid": "^3.3.2",
@@ -22,5 +22,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

@@ -1,0 +1,18 @@
+<!--pages/longSentence/longSentence.wxml-->
+<view class="ela-content">
+  <view class="title">
+    <text class="justify-content-text" bindtap="selectBook">长难句学习</text>
+  </view>
+  <view class="ela-card">
+    <text class="content-text">
+      1.Interest in historical methods has arisen less through external challenge to the validity of history as an intellectual discipline and more from internal quarrels among historians themselves.
+      人们对于历史研究方法论的兴趣提升了，与其说是因为业外对于历史学作为一门知识学科的合理性提出了挑战，还不如说是因为史学家们当中出现的学术争论所导致的。
+    </text>
+  </view>
+  <view class="ela-card">
+    <text class="content-text">
+      2.Interest in historical methods has arisen less through external challenge to the validity of history as an intellectual discipline and more from internal quarrels among historians themselves.
+      人们对于历史研究方法论的兴趣提升了，与其说是因为业外对于历史学作为一门知识学科的合理性提出了挑战，还不如说是因为史学家们当中出现的学术争论所导致的。
+    </text>
+  </view>
+</view>
