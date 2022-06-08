@@ -15,6 +15,12 @@ Page({
 
   },
 
+  jump: function(e){
+    wx.switchTab({
+      url: '../mine/mine'
+    })
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

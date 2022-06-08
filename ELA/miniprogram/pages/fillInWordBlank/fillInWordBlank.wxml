@@ -1,0 +1,18 @@
+<!--pages/fillInWordBlank/fillInWordBlank.wxml-->
+<view class="ela-content">
+  <view class="center-text">
+    <text class="word">expla</text>
+    <input type="text" class="letter-input"/>
+    <text class="word">ns</text>
+  </view>
+  <view class="ela-card">
+    <view class="content-text">v.  搜寻，搜索；调查；搜查；探求;</view>
+    <view class="content-text">n.  搜索；调查；探求;</view>
+  </view>
+  <view class="choose-card">
+    <button class="choose-button">a</button>
+    <button class="choose-button">e</button>
+    <button class="choose-button">i</button>
+    <button class="choose-button">o</button>
+  </view>
+</view>

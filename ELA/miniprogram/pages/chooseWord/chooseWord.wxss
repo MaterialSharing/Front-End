@@ -1,0 +1,18 @@
+/* pages/chooseWord/chooseWord.wxss */
+.ela-card{
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 30rpx 100rpx;
+  border-radius: 50rpx;
+}
+
+.content-text{
+  font-size: 15px;
+}
+
+.choose-button{
+  border-style: solid;
+  border-width: 2rpx;
+  margin: 50rpx;
+}

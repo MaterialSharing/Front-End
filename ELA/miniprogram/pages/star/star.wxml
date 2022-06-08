@@ -1,8 +1,6 @@
-<!--pages/wordList/wordList.wxml-->
+<!--pages/star/star.wxml-->
 <view class="ela-content">
-  <view class="ela-card">
-    <text class="justify-content-text" bindtap="selectBook">高频词汇列表总览</text>
-  </view>
+  <view class="justify-content-text">我的收藏列表</view>
   <view>
     <van-cell title="abandon">
       <view slot="right-icon">
@@ -35,15 +33,5 @@
       </view>
     </van-cell>
   </view>
-  <view>
-    <text>我的记忆进度</text>
-    <!-- 进度条开始 -->
-    <view>
-      <progress percent="60" show-info color="#1296db"></progress>
-    </view>
-    <!-- 进度条结束 -->
-    <view>
-      <button plain="true" bindtap="button">继续学习</button>
-    </view>
-  </view>
 </view>
+

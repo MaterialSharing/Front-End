@@ -1,0 +1,5 @@
+/* pages/history/history.wxss */
+.justify-content-text{
+  display: flex;
+  justify-content: center;
+}

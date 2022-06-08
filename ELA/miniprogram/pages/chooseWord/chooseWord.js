@@ -1,4 +1,4 @@
-// pages/wordList/wordList.js
+// pages/chooseWord/chooseWord.js
 Page({
 
   /**
@@ -13,13 +13,6 @@ Page({
    */
   onLoad: function (options) {
 
-  },
-
-  //继续学习按钮
-  button: function(e){
-    wx.navigateTo({
-      url: '../wordDetail/wordDetail',
-    })
   },
 
   /**

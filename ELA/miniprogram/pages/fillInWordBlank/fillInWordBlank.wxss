@@ -1,0 +1,36 @@
+/* pages/fillInWordBlank/fillInWordBlank.wxss */
+
+.ela-card{
+  font-weight: 300;
+  border-style: solid;
+  border-width: 2rpx;
+  padding: 30rpx;
+  margin: 30rpx 100rpx;
+  border-radius: 50rpx;
+}
+
+.content-text{
+  font-size: small;
+}
+
+.word{
+  font-size: 50rpx;
+  font-weight: 900;
+}
+
+.center-text{
+  display: flex;
+  justify-content: center;
+}
+
+.letter-input{
+  border: none;
+  border-bottom: 7rpx solid black;
+  width: 15rpx;
+}
+
+.choose-button{
+  border-style: solid;
+  border-width: 2rpx;
+  margin: 50rpx;
+}

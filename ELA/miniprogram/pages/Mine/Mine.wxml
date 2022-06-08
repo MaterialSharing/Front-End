@@ -1,26 +1,23 @@
 <!--pages/mine/mine.wxml-->
-<view class="ela-content">
-  <view class="ela-card">
-    <view class="album">
-        <l-avatar size='200'  src="https://c-ssl.duitang.com/uploads/item/201905/17/20190517211730_kurtr.jpg" />
-        <view class="name-card">
-          <view class="name">小新</view>
-          <view class="justify-content-text">户龄：250天</view>
-        </view>
-    </view>
+<view class="head">
+  <button class="login-btn" wx:if="{{!userInfo}}" bindtap="login" type="primary">授权登录</button>
+  <view wx:else class="avatar-content">
+    <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+    <text class="nickname">{{userInfo.nickName}}</text>
+    <text class="logout" bindtap="logout">退出登录</text>
   </view>
-  <view class="ela-card">
-    <text class="justify-content-text">打卡</text>
-    <view class="learn-time">
-      <van-icon size="30px" name="completed"></van-icon>
-      <text>累计打卡：233天</text>
-    </view>
+</view>
+
+<view wx:if="{{userInfo}}">
+  <view class="learn-time">
+    <van-icon size="30px" name="completed"></van-icon>
+    <text>累计打卡：233天</text>
   </view>
   <view class="ela-card">
     <text class="text1">您的坚持超过了:</text>
     <text class="user">78%的用户</text>
   </view>
-  <text class="justify-content-text">考试倒计时</text>
+  <!-- <text class="justify-content-text">考试倒计时</text>
   <text>考试日期估计</text>
   <view>
     <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
@@ -29,8 +26,7 @@
       </view>
     </picker>
   </view>
-  <view>大约还剩100天（根据往年日期估算）</view>
-  <view>准确倒计时</view>
+  <view>大约还剩100天（根据往年日期估算）</view> -->
   <view class="ela-card">
     <view>输入您的考试日期：</view>
     <view class="section">
@@ -44,7 +40,20 @@
       </picker>
     </view>
   </view>
-  <view class="ela-card">我的收藏列表</view>
-  <view class="ela-card">我的查询记录</view>
-  <view class="ela-card">问题反馈和建议</view>
+  <view class="item" bindtap="star">
+    <text>我的收藏</text>
+    <view class="right-arrow"></view>
+  </view>
+  <view class="item" bindtap="history">
+    <text>历史记录</text>
+    <view class="right-arrow"></view>
+  </view>
+</view>
+<view class="item">
+  <button class="button" open-type="feedback">反馈建议</button>
+  <view class="right-arrow"></view>
+</view>
+<view class="item">
+  <button class="button" open-type="contact">在线客服</button>
+  <view class="right-arrow"></view>
 </view>

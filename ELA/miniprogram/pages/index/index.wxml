@@ -1,7 +1,7 @@
 <!--pages/index/index.wxml-->
 <view class="ela-content">
   <view>
-    <van-search vw-model="value" placeholder="请输入搜索关键词" shape="round"></van-search>
+    <van-search vw-model="value" placeholder="请输入搜索关键词" shape="round" background="#1296db"></van-search>
   </view>
   <!-- 轮播图开始 -->
   <view class="index-swiper">

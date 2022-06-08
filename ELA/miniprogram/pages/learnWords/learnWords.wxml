@@ -21,7 +21,7 @@
     <van-rate v-model="value"></van-rate>
   </view>
   <view>单词批注</view>
-  <view class="justify-content-text">
+  <view class="justify-content-text" bindtap="addComment">
     <van-button>添加我的批注</van-button>
   </view>
   <view class="line"></view>

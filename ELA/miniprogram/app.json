@@ -1,7 +1,16 @@
 {
   "pages": [
+    "pages/search/search",
     "pages/index/index",
+    "pages/fillInWordBlank/fillInWordBlank",
+    "pages/chooseWord/chooseWord",
+    "pages/spellWord/spellWord",
+    "pages/longSentence/longSentence",
+    "pages/assistant/assistant",
+    "pages/comment/comment",
     "pages/authorize/authorize",
+    "pages/star/star",
+    "pages/history/history",
     "pages/mine/mine",
     "pages/randomWord/randomWord",
     "pages/schedule/schedule",
@@ -9,18 +18,14 @@
     "pages/learnWords/learnWords",
     "pages/wordDetail/wordDetail",
     "pages/bookClassification/bookClassification",
-    "pages/longSentence/longSentence",
-    "pages/grammarOutline/grammarOutline",
-    "pages/assistant/assistant",
-    "pages/comment/comment",
+    "pages/grammarOutline/grammarOutline",    
     "pages/searchError/searchError",
-    
     "pages/wordList/wordList"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#1296db",
     "navigationBarTitleText": "英语学习助手",
     "navigationBarTextStyle": "black"
   },

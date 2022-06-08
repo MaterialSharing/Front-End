@@ -1,0 +1,12 @@
+<!--pages/chooseWord/chooseWord.wxml-->
+<view class="ela-content">
+  <view>explains(词义)</view>
+  <view class="ela-card">
+    <view class="content-text">v.  搜寻，搜索；调查；搜查；探求;</view>
+    <view class="content-text">n.  搜索；调查；探求;</view>
+  </view>
+  <button class="choose-button">assistant</button>
+  <button class="choose-button">search</button>
+  <button class="choose-button">help</button>
+  <button class="choose-button">walk</button>
+</view>
