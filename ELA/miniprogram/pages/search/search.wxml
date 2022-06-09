@@ -1,3 +1,15 @@
 <view>
-  <van-search vw-model="value" placeholder="请输入搜索关键词" shape="round"></van-search>
+  <view class="search-box"> 
+    <input type="text" class="search" placeholder="请输入单词" bindconfirm="search" value="{{inputValue}}" ></input>
+    <van-icon name="close" class="delete-word" bindtap="deleteInput"></van-icon>
+  </view>
+  <view wx:if="{{input.length!=0}}" class="history-content">
+    <text class="history-title">查询历史</text>
+    <van-icon name="delete" class="delete-history" bindtap="deleteHistory"></van-icon>
+    <view class="item" wx:for="{{input}}" bindtap="searchHistory" data-word="{{item}}">
+      <text class="spelling" space="emsp">{{item.spelling}} </text>
+      <text class="explains">{{item.explains}}</text>
+      <view class="line"></view>
+    </view>
+  </view>
 </view>

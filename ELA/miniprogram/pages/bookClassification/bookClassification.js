@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    type: ["高频词汇","四级词汇","六级词汇","考研词汇"],
     array: ['常规模式', '简洁模式'],
     index: 0
   },
@@ -26,8 +27,9 @@ Page({
 
   //wordList
   wordList: function(e){
+    console.log("选择词书",e)
     wx.navigateTo({
-      url: '../wordList/wordList'
+      url: '../wordList/wordList?type='+e.currentTarget.dataset.type
     })
   },
 

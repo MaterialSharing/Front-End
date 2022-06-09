@@ -25,7 +25,7 @@ Page({
 
   //picker
   bindPickerChange: function(e){
-    // console.log(e);
+    console.log(e);
     this.setData({
       index: e.detail.value
     })

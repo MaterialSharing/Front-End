@@ -7,7 +7,8 @@ Page({
    */
   data: {
     //轮播图数组
-    swiperList:[]
+    swiperList:[],
+    type: "四级词汇"
   },
 
   /**
@@ -42,6 +43,19 @@ Page({
   selectBook: function(event){
     wx.navigateTo({
       url: '../bookClassification/bookClassification',
+    })
+  },
+
+  //跳转到搜索页
+  search(){
+    wx.navigateTo({
+      url: '../search/search',
+    })
+  },
+
+  continueStudy(){
+    wx.switchTab({
+      url: '../learnWords/learnWords',
     })
   },
 

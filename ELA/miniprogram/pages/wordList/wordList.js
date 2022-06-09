@@ -12,13 +12,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log("onLoad",options)
+    this.setData({
+      type: options.type
+    })
   },
 
   //继续学习按钮
-  button: function(e){
-    wx.navigateTo({
-      url: '../wordDetail/wordDetail',
+  continueStudy(event){
+    wx.switchTab({
+      url: '../learnWords/learnWords',
     })
   },
 

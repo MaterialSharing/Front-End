@@ -1,4 +1,43 @@
 /* pages/learnWords/learnWords.wxss */
+.content{
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+.word{
+  font-size: 70rpx;
+  font-weight: 900;
+}
+
+.phonetic{
+  margin-top: 30rpx;
+}
+
+.explains{
+  margin-top: 30rpx;
+}
+
+.line{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  border: 1px solid gainsboro;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 1rpx;
+}
+
+.changeTitle{
+  margin-top: 50rpx;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+
+.changeContent{
+  margin-top: 30rpx;
+  font-size: 40rpx;
+}
+
 .ela-card{
   border-style: solid;
   border-width: 2rpx;
@@ -49,10 +88,10 @@
   color: rgb(91, 108, 160);
   font-weight: 450;
 }
-
+/* 
 .line {
   height: 1px;
   border-top: solid Silver 1px;
   margin-bottom: 40rpx;
   margin-top: 30rpx;
-}
+} */

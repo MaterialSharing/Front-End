@@ -5,28 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    dict: ""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var json = JSON.parse(options.dict)
+    console.log("navigate success",json)
+    this.setData({
+      dict: json
+    })
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    
   },
 
   /**

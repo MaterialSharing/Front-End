@@ -8,6 +8,7 @@ Page({
     array: ['四级大纲', '六级大纲', '考研大纲' ],
     index: 0,
     date: '2016-09-01',
+    ddl: null
   },
 
   /**
@@ -61,8 +62,14 @@ Page({
   //date
   bindDateChange: function(e) {
     console.log('picker发送选择改变，携带值为', e.detail.value)
+    //计算时间差
+    var t1=new Date(e.detail.value.replace(/-/g,"/"));//转换
+    var data=new Date();//获取当前时间
+    var times=t1.getTime()-data.getTime();//时间差的毫秒数
+    var days=Math.ceil(times/(24*1000*3600));//计算相差的天数
     this.setData({
-      date: e.detail.value
+      date: e.detail.value,
+      ddl: days
     })
   },
 

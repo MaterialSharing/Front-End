@@ -1,7 +1,7 @@
 <!--pages/wordList/wordList.wxml-->
 <view class="ela-content">
   <view class="ela-card">
-    <text class="justify-content-text" bindtap="selectBook">高频词汇列表总览</text>
+    <text class="justify-content-text" bindtap="selectBook">{{type}}列表总览</text>
   </view>
   <view>
     <van-cell title="abandon">
@@ -43,7 +43,7 @@
     </view>
     <!-- 进度条结束 -->
     <view>
-      <button plain="true" bindtap="button">继续学习</button>
+      <button plain="true" bindtap="continueStudy">继续学习</button>
     </view>
   </view>
 </view>

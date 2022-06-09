@@ -1,22 +1,13 @@
-<!--pages/bookClassification/bookClassification.wxml-->
-<view class="ela-content">
-  <view class="ela-card" bindtap="wordList">
-    <text class="justify-content-text" bindtap="selectBook">高频词汇</text>
+<view class="ela-content" wx:for="{{type}}">
+  <view class="ela-card" bindtap="wordList" data-type="{{item}}">
+    <text class="justify-content-text" bindtap="selectBook">{{item}}</text>
   </view>
-  <view class="ela-card">
-    <text class="justify-content-text" bindtap="selectBook">四级词汇</text>
-  </view>
-  <view class="ela-card">
-    <text class="justify-content-text" bindtap="selectBook">六级词汇</text>
-  </view>
-  <view class="ela-card">
-    <text class="justify-content-text" bindtap="selectBook">考研词汇</text>
-  </view>
-  <view>
-    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
-      <view class="picker">
-        <van-cell title="记忆模式" is-link>{{array[index]}}</van-cell>
-      </view>
-    </picker>
-  </view>
+</view>
+<!-- picker -->
+<view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      <van-cell title="记忆模式" is-link>{{array[index]}}</van-cell>
+    </view>
+  </picker>
 </view>

@@ -1,1 +1,51 @@
-/* pages/search/search.wxss */
+.search-box{
+  background-color: white;
+  margin: 20rpx;
+}
+
+.search{
+  background-color: white;
+  width: 85%;
+  height: 80rpx;
+  margin: 20rpx;
+}
+
+.delete-word{
+  position: absolute;
+  right: 30rpx;
+  top: 40rpx;
+}
+
+.history-content{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.history-title{
+  color: gray;
+  font-size: small;
+}
+
+.item{
+  margin-top: 30rpx;
+}
+
+.explains{
+  font-size: small;
+  color: gray;
+}
+
+.line{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border: 1px solid gainsboro;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 1rpx;
+}
+
+.delete-history{
+  position: absolute;
+  right: 15rpx;
+}

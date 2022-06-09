@@ -5,7 +5,41 @@ Page({
    * 页面的初始数据
    */
   data: {
+    disabled: true,
+    comment: ""
+  },
 
+  //监听输入
+  getComment(event){
+    console.log("评论",event.detail.value)
+    this.setData({
+      comment: event.detail.value
+    })
+    if(this.data.comment==""){
+      this.setData({
+        disabled: true
+      })
+    }else{
+      this.setData({
+        disabled: false
+      })
+    }
+  },
+
+  //发表
+  button(){
+    var pages = getCurrentPages();
+    var currPage = pages[pages.length - 1];   //当前页面
+    var prevPage = pages[pages.length - 2];  //上一个页面
+
+    //直接调用上一个页面的setData()方法，把数据存到上一个页面中去
+    //不需要页面更新
+    prevPage.setData({
+      comment: this.data.comment
+    })
+    wx.navigateBack({
+      delta: 0,
+    })
   },
 
   /**

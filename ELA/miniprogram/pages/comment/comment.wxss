@@ -1,7 +1,18 @@
 /* pages/comment/comment.wxss */
-.justify-content-text{
+.title{
+  font-weight: bold;
   display: flex;
   justify-content: center;
+}
+
+.button{
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+}
+
+.text{
+  margin: 20rpx;
 }
 
 .ela-card{
@@ -11,4 +22,14 @@
   padding: 60rpx;
   margin: 30rpx 100rpx;
   border-radius: 100rpx;
+}
+
+.line{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  border: 1px solid gainsboro;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 1rpx;
 }

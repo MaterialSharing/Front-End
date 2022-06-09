@@ -1,27 +1,30 @@
-<!--pages/wordDetail/wordDetail.wxml-->
-<view class="ela-content">
-  <text class="justify-content-text">search</text>
-  <view class="ela-card" bindtap="wordList">
-    <view>音标：</view>
-    <view class="content-text">UK-phonetic [sɜ:tʃ]</view>
-    <view class="content-text">US-phonetic-phonetic [sɜrtʃ] </view>
+<view class="content">
+  <!-- 单词、音标和释义 -->
+  <text class="word">{{dict.spelling}}</text>
+  <view class="phonetic">
+    <text>/{{dict.phonetic}}/</text>
   </view>
-  <view>explains(词义)</view>
-  <view class="ela-card">
-    <view class="content-text">v.  搜寻，搜索；调查；搜查；探求;</view>
-    <view class="content-text">n.  搜索；调查；探求;</view>
+  <view class="explains">
+    <text>{{dict.explains}}</text>
   </view>
-  <view class="ela-card">
-    <view class="content-text">网络释义：</view>
-    <view class="content-text">搜索</view>
-    <view class="content-text">搜寻</view>
-  </view>
-  <view>词性/词变化</view>
-  <view class="ela-card">
-    <view class="content-text">网络释义：</view>
-    <view class="content-text">过去分词: searched</view>
-    <view class="content-text">过去式: searched</view>
-    <view class="content-text">现在分词: searching</view>
-    <view class="content-text">第三人称单数: searches</view>
+  <!-- 单词变形 -->
+  <view wx:if="{{!(dict.thirdpp=='NULL'&&dict.plurality=='NULL'&&dict.present_participle=='NULL'&&dict.past_tense=='NULL'&&dict.past_participle=='NULL')}}">
+    <view class="line"></view>
+    <text class="changeTitle">单词变形</text>
+    <view wx:if="{{dict.thirdpp!='NULL'}}" class="changeContent">
+      <text>第三人称单数：{{dict.thirdpp}}</text>
+    </view>
+    <view wx:if="{{dict.plurality!='NULL'}}" class="changeContent">
+      <text>复数：{{dict.plurality}}</text>
+    </view>
+    <view wx:if="{{dict.present_participle!='NULL'}}" class="changeContent">
+      <text>现在分词：{{dict.present_participle}}</text>
+    </view>
+    <view wx:if="{{dict.past_tense!='NULL'}}" class="changeContent">
+      <text>过去式：{{dict.past_tense}}</text>
+    </view>
+    <view wx:if="{{dict.past_participle!='NULL'}}" class="changeContent">
+      <text>过去分词：{{dict.past_participle}}</text>
+    </view>
   </view>
 </view>

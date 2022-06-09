@@ -30,13 +30,13 @@
   <view class="ela-card">
     <view>输入您的考试日期：</view>
     <view class="section">
-      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+      <picker mode="date" value="{{date}}" start="2022-01-01" end="2032-01-01" bindchange="bindDateChange">
         <view class="time-card">
           <van-icon name="calender-o"></van-icon>
           <text class="picker">{{date}}</text>
         </view>
         <text>距离考试开始还有：</text>
-        <text class="ddl">30天</text>
+        <text class="ddl">{{ddl}}天</text>
       </picker>
     </view>
   </view>

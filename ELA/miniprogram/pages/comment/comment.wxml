@@ -1,6 +1,7 @@
 <!--pages/comment/comment.wxml-->
 <view class="ela-content">
-  <view class="justify-content-text">我的批注</view>
-  <view class="ela-card">批注内容...</view>
-  <van-button class="justify-content-text">提交</van-button>
+  <view class="title">发表批注</view>
+  <button disabled="{{disabled}}" size="mini" class="button" type="primary" bindtap="button">发表</button>
+  <textarea class="text" placeholder="分享你的想法..." bindinput="getComment"></textarea>
+  <view class="line"></view>
 </view>

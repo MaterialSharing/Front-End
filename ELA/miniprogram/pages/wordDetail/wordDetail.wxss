@@ -1,17 +1,38 @@
-/* pages/wordDetail/wordDetail.wxss */
-.ela-card{
-  border-style: solid;
-  border-width: 2rpx;
-  padding: 30rpx;
-  margin: 30rpx 100rpx;
-  border-radius: 100rpx;
+.content{
+  margin-left: 50rpx;
+  margin-right: 50rpx;
 }
 
-.justify-content-text{
-  display: flex;
-  justify-content: center;
+.word{
+  font-size: 70rpx;
+  font-weight: 900;
 }
 
-.content-text{
-  font-size: 10px;
+.phonetic{
+  margin-top: 30rpx;
+}
+
+.explains{
+  margin-top: 30rpx;
+}
+
+.line{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  border: 1px solid gainsboro;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 1rpx;
+}
+
+.changeTitle{
+  margin-top: 50rpx;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+
+.changeContent{
+  margin-top: 30rpx;
+  font-size: 40rpx;
 }
